@@ -14,12 +14,23 @@
 body{
   text-align: center;
   font-family: "Open Sans", sans-serif;
+
+
+  padding-bottom: 105px;
+  background-image: url(./images/Wave.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 main{
   margin: 64px auto;
   width: 626px;
   padding: 0 48px;
+}
+
+main img{
+  margin-bottom: 32px;
 }
 
 /* Headline */
@@ -53,7 +64,7 @@ main p + p{
   margin-top: 32px;
 }
 
-/* Linha */
+/* Line */
 
 div#line{
   height: 0;
@@ -75,6 +86,7 @@ footer{
 
 footer a{
   color: var(--color-primary);
+  padding-bottom: 40.83px;
   
   font-size: 15px;
   font-weight: 700;
@@ -82,4 +94,3 @@ footer a{
   
   text-decoration: none;
 }
-
